@@ -13,7 +13,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class LoginActivity extends AppCompatActivity {
-    private EditText email,password,username;
+    private EditText email,password;
+    public EditText username;
 
 
 
@@ -50,7 +51,9 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                    validation();
+                validation();
+//                Intent loginintent=new Intent(LoginActivity.this,QrCode.class);
+//                startActivity(loginintent);
 
                 }
 
