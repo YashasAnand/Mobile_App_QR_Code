@@ -33,6 +33,8 @@ public class QrCode extends AppCompatActivity {
         scanQrBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent i=new Intent(QrCode.this,QR_scan.class);
+                startActivity(i);
 
             }
         });

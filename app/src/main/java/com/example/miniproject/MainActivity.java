@@ -22,6 +22,6 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         }, 3000);
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
     }
 }
