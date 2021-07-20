@@ -3,7 +3,7 @@
 This is an application which will read QR-Code and take them to respective websites.
 This is part of our Mobile Application Development Laboratory Mini-Project.
 
-Contributors:
-YashasAnand
-yazyyyyy
-sumukh30
+# Contributors:
+YashasAnand<br>
+yazyyyyy<br>
+sumukh30<br>
